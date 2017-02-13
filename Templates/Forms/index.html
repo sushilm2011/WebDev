@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo2.png" height="45px"/>
+    </header>
+    <form>
+
+      <!--Personal Details -->
+      <p>Personal Details:</p>
+      <input type="name" placeholder="Name" required/><br/>
+      <input type="password" placeholder="Password" required/>
+
+      <!-- Gender -->
+      <p>Gender: </p>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label><br/>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+
+      <!-- Interests -->
+      <p>You are here for: </p>
+      <input type="checkbox" id="web" />
+      <label for="web">Web Dev</label><br/>
+      <input type="checkbox" id="android" />
+      <label for="android">Android</label><br/>
+      <input type="checkbox" id="c" />
+      <label for="c">C Programming Language</label><br/>
+      <input type="checkbox" id="c++" />
+      <label for="c++">C++ Programming Language</label><br/>
+      <input type="checkbox" id="java" />
+      <label for="java">Java Programming Language</label><br/>
+      <input type="checkbox" id="python" />
+      <label for="python">Python Programming Language</label><br/>
+
+      <!-- Contact details -->
+      <fieldset>
+        <legend>Contact Info</legend>
+        <input type="email" placeholder="Email" required/>
+        <span class="tick"></span>
+        <input type="telephone" placeholder="Phone number" required/>
+        <span class="tick"></span>
+      </fieldset>
+      <!-- Preferred -->
+      <p>How would you like to be contacted?</p>
+      <select>
+        <option>By email</option>
+        <option>By telephone</option>
+      </select>
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>
